@@ -1,0 +1,4 @@
+[WARNING CTS-0043] 4896 wires are pure wire and no slew degradation.
+[WARNING CTS-0041] Net "clk" has 0 sinks. Skipping...
+[WARNING CTS-0083] No clock nets have been found.
+[WARNING CTS-0082] No valid clock nets in the design.

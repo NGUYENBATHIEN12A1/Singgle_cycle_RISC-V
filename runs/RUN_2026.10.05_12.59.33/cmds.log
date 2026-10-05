@@ -1,0 +1,30 @@
+Mon Oct 05 12:59:36 UTC 2026 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/lefutil.py get_metal_layers -o /openlane/designs/Singgle_cycle/runs/RUN_2026.10.05_12.59.33/tmp/layers.list /home/thiennb/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef"
+
+Mon Oct 05 12:59:37 UTC 2026 - Executing "/openlane/scripts/mergeLef.py -o /openlane/designs/Singgle_cycle/runs/RUN_2026.10.05_12.59.33/tmp/merged.nom.lef -i /home/thiennb/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef {/home/thiennb/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef /home/thiennb/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef} |& tee /dev/null"
+
+Mon Oct 05 12:59:37 UTC 2026 - Executing "/openlane/scripts/mergeLef.py -o /openlane/designs/Singgle_cycle/runs/RUN_2026.10.05_12.59.33/tmp/merged.min.lef -i /home/thiennb/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__min.tlef {/home/thiennb/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef /home/thiennb/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef} |& tee /dev/null"
+
+Mon Oct 05 12:59:37 UTC 2026 - Executing "/openlane/scripts/mergeLef.py -o /openlane/designs/Singgle_cycle/runs/RUN_2026.10.05_12.59.33/tmp/merged.max.lef -i /home/thiennb/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__max.tlef {/home/thiennb/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef /home/thiennb/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef} |& tee /dev/null"
+
+Mon Oct 05 12:59:38 UTC 2026 - Executing "python3 /openlane/scripts/mergeLib.py --output /openlane/designs/Singgle_cycle/runs/RUN_2026.10.05_12.59.33/tmp/synthesis/merged.lib --name sky130A_merged /home/thiennb/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
+
+Mon Oct 05 12:59:38 UTC 2026 - Executing "python3 /openlane/scripts/libtrim.py --cell-file /openlane/designs/Singgle_cycle/runs/RUN_2026.10.05_12.59.33/tmp/synthesis/trimmed.lib.exclude.list --output /openlane/designs/Singgle_cycle/runs/RUN_2026.10.05_12.59.33/tmp/synthesis/trimmed.lib /openlane/designs/Singgle_cycle/runs/RUN_2026.10.05_12.59.33/tmp/synthesis/merged.lib"
+
+Mon Oct 05 12:59:39 UTC 2026 - Executing "python3 /openlane/scripts/libtrim.py --cell-file /openlane/designs/Singgle_cycle/runs/RUN_2026.10.05_12.59.33/tmp/cts/cts.lib.exclude.list --output /openlane/designs/Singgle_cycle/runs/RUN_2026.10.05_12.59.33/tmp/cts/cts.lib /home/thiennb/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
+
+Mon Oct 05 12:59:39 UTC 2026 - Executing "python3 /openlane/scripts/libtrim.py --cell-file /openlane/designs/Singgle_cycle/runs/RUN_2026.10.05_12.59.33/tmp/cts/cts-fastest.lib.exclude.list --output /openlane/designs/Singgle_cycle/runs/RUN_2026.10.05_12.59.33/tmp/cts/cts-fastest.lib /home/thiennb/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib"
+
+Mon Oct 05 12:59:40 UTC 2026 - Executing "python3 /openlane/scripts/libtrim.py --cell-file /openlane/designs/Singgle_cycle/runs/RUN_2026.10.05_12.59.33/tmp/cts/cts-slowest.lib.exclude.list --output /openlane/designs/Singgle_cycle/runs/RUN_2026.10.05_12.59.33/tmp/cts/cts-slowest.lib /home/thiennb/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib"
+
+Mon Oct 05 12:59:41 UTC 2026 - Executing "python3 /openlane/scripts/new_tracks.py -i /home/thiennb/.ciel/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tracks.info -o /openlane/designs/Singgle_cycle/runs/RUN_2026.10.05_12.59.33/tmp/routing/config.tracks"
+
+Mon Oct 05 12:59:41 UTC 2026 - Executing "echo {OpenLane ff5509f65b17bfa4068d5336495ab1718987ff69} > /openlane/designs/Singgle_cycle/runs/RUN_2026.10.05_12.59.33/OPENLANE_COMMIT"
+
+Mon Oct 05 12:59:42 UTC 2026 - Executing "bash -c {verilator  --lint-only  -Wall  --Wno-DECLFILENAME  --top-module top  /openlane/designs/Singgle_cycle/src/Adder.sv /openlane/designs/Singgle_cycle/src/ALU_Control.sv /openlane/designs/Singgle_cycle/src/ALU_unit.sv /openlane/designs/Singgle_cycle/src/Control_Unit.sv /openlane/designs/Singgle_cycle/src/Data_Memory.sv /openlane/designs/Singgle_cycle/src/ImmGen.sv /openlane/designs/Singgle_cycle/src/Instruction_Mem.sv /openlane/designs/Singgle_cycle/src/Mux2to1.sv /openlane/designs/Singgle_cycle/src/PCplus4.sv /openlane/designs/Singgle_cycle/src/Program_Counter.sv /openlane/designs/Singgle_cycle/src/Reg_file.sv /openlane/designs/Singgle_cycle/src/tb_top.sv /openlane/designs/Singgle_cycle/src/top.sv -Wno-fatal --relative-includes |& tee /openlane/designs/Singgle_cycle/runs/RUN_2026.10.05_12.59.33/logs/synthesis/linter.log /dev/null}"
+
+Mon Oct 05 12:59:42 UTC 2026 - Executing "sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /home/thiennb/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib > /openlane/designs/Singgle_cycle/runs/RUN_2026.10.05_12.59.33/tmp/synthesis/1-sky130_fd_sc_hd__tt_025C_1v80.no_pg.lib"
+
+Mon Oct 05 12:59:44 UTC 2026 - Executing "sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /openlane/designs/Singgle_cycle/runs/RUN_2026.10.05_12.59.33/tmp/synthesis/trimmed.lib > /openlane/designs/Singgle_cycle/runs/RUN_2026.10.05_12.59.33/tmp/synthesis/1-trimmed.no_pg.lib"
+
+Mon Oct 05 12:59:44 UTC 2026 - Executing "yosys -c /openlane/scripts/yosys/synth.tcl |& tee /dev/null /openlane/designs/Singgle_cycle/runs/RUN_2026.10.05_12.59.33/logs/synthesis/1-synthesis.log"
+

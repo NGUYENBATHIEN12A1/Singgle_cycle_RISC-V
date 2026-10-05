@@ -1,0 +1,4 @@
+Warning: Replacing memory \D_Memory with list of registers. See /openlane/designs/Singgle_cycle/src/Data_Memory.sv:12
+Warning: Replacing memory \Registers with list of registers. See /openlane/designs/Singgle_cycle/src/Reg_file.sv:13
+/openlane/designs/Singgle_cycle/src/tb_top.sv:0: Warning: Ignoring call to system task $dumpfile.
+/openlane/designs/Singgle_cycle/src/tb_top.sv:0: Warning: Ignoring call to system task $dumpvars.

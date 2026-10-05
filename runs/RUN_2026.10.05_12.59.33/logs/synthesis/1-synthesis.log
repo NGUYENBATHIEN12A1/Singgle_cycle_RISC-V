@@ -1,0 +1,92 @@
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2020  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.30+48 (git sha1 14d50a176d5, gcc 8.3.1 -fPIC -Os)
+
+[TCL: yosys -import] Command name collision: found pre-existing command `cd' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `eval' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `exec' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `read' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `trace' -> skip.
+
+1. Executing Verilog-2005 frontend: /openlane/designs/Singgle_cycle/src/Adder.sv
+Parsing SystemVerilog input from `/openlane/designs/Singgle_cycle/src/Adder.sv' to AST representation.
+Generating RTLIL representation for module `\Adder'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: /openlane/designs/Singgle_cycle/src/ALU_Control.sv
+Parsing SystemVerilog input from `/openlane/designs/Singgle_cycle/src/ALU_Control.sv' to AST representation.
+Generating RTLIL representation for module `\ALU_Control'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: /openlane/designs/Singgle_cycle/src/ALU_unit.sv
+Parsing SystemVerilog input from `/openlane/designs/Singgle_cycle/src/ALU_unit.sv' to AST representation.
+Generating RTLIL representation for module `\ALU_unit'.
+Successfully finished Verilog frontend.
+
+4. Executing Verilog-2005 frontend: /openlane/designs/Singgle_cycle/src/Control_Unit.sv
+Parsing SystemVerilog input from `/openlane/designs/Singgle_cycle/src/Control_Unit.sv' to AST representation.
+Generating RTLIL representation for module `\Control_Unit'.
+Successfully finished Verilog frontend.
+
+5. Executing Verilog-2005 frontend: /openlane/designs/Singgle_cycle/src/Data_Memory.sv
+Parsing SystemVerilog input from `/openlane/designs/Singgle_cycle/src/Data_Memory.sv' to AST representation.
+Generating RTLIL representation for module `\Data_Memory'.
+Warning: Replacing memory \D_Memory with list of registers. See /openlane/designs/Singgle_cycle/src/Data_Memory.sv:12
+Successfully finished Verilog frontend.
+
+6. Executing Verilog-2005 frontend: /openlane/designs/Singgle_cycle/src/ImmGen.sv
+Parsing SystemVerilog input from `/openlane/designs/Singgle_cycle/src/ImmGen.sv' to AST representation.
+Generating RTLIL representation for module `\ImmGen'.
+Successfully finished Verilog frontend.
+
+7. Executing Verilog-2005 frontend: /openlane/designs/Singgle_cycle/src/Instruction_Mem.sv
+Parsing SystemVerilog input from `/openlane/designs/Singgle_cycle/src/Instruction_Mem.sv' to AST representation.
+Generating RTLIL representation for module `\Instruction_Mem'.
+Successfully finished Verilog frontend.
+
+8. Executing Verilog-2005 frontend: /openlane/designs/Singgle_cycle/src/Mux2to1.sv
+Parsing SystemVerilog input from `/openlane/designs/Singgle_cycle/src/Mux2to1.sv' to AST representation.
+Generating RTLIL representation for module `\Mux2to1'.
+Successfully finished Verilog frontend.
+
+9. Executing Verilog-2005 frontend: /openlane/designs/Singgle_cycle/src/PCplus4.sv
+Parsing SystemVerilog input from `/openlane/designs/Singgle_cycle/src/PCplus4.sv' to AST representation.
+Generating RTLIL representation for module `\PCplus4'.
+Successfully finished Verilog frontend.
+
+10. Executing Verilog-2005 frontend: /openlane/designs/Singgle_cycle/src/Program_Counter.sv
+Parsing SystemVerilog input from `/openlane/designs/Singgle_cycle/src/Program_Counter.sv' to AST representation.
+Generating RTLIL representation for module `\Program_Counter'.
+Successfully finished Verilog frontend.
+
+11. Executing Verilog-2005 frontend: /openlane/designs/Singgle_cycle/src/Reg_file.sv
+Parsing SystemVerilog input from `/openlane/designs/Singgle_cycle/src/Reg_file.sv' to AST representation.
+Generating RTLIL representation for module `\Reg_file'.
+Warning: Replacing memory \Registers with list of registers. See /openlane/designs/Singgle_cycle/src/Reg_file.sv:13
+Successfully finished Verilog frontend.
+
+12. Executing Verilog-2005 frontend: /openlane/designs/Singgle_cycle/src/tb_top.sv
+Parsing SystemVerilog input from `/openlane/designs/Singgle_cycle/src/tb_top.sv' to AST representation.
+Generating RTLIL representation for module `\tb_top'.
+/openlane/designs/Singgle_cycle/src/tb_top.sv:0: Warning: Ignoring call to system task $dumpfile.
+/openlane/designs/Singgle_cycle/src/tb_top.sv:0: Warning: Ignoring call to system task $dumpvars.
+/openlane/designs/Singgle_cycle/src/tb_top.sv:0: ERROR: System task `$finish' executed.

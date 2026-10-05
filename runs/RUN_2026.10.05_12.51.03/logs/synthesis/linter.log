@@ -1,0 +1,120 @@
+%Warning-EOFNEWLINE: /openlane/designs/Singgle_cycle/src/Adder.sv:9:10: Missing newline at end of file (POSIX 3.206).
+                                                                      : ... Suggest add newline.
+    9 | endmodule
+      |          ^
+                     ... For warning description see https://verilator.org/warn/EOFNEWLINE?v=5.009
+                     ... Use "/* verilator lint_off EOFNEWLINE */" and lint_on around source to disable this message.
+%Warning-EOFNEWLINE: /openlane/designs/Singgle_cycle/src/ALU_Control.sv:24:10: Missing newline at end of file (POSIX 3.206).
+                                                                             : ... Suggest add newline.
+   24 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/Singgle_cycle/src/ALU_unit.sv:19:10: Missing newline at end of file (POSIX 3.206).
+                                                                          : ... Suggest add newline.
+   19 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/Singgle_cycle/src/Control_Unit.sv:17:10: Missing newline at end of file (POSIX 3.206).
+                                                                              : ... Suggest add newline.
+   17 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/Singgle_cycle/src/Data_Memory.sv:21:10: Missing newline at end of file (POSIX 3.206).
+                                                                             : ... Suggest add newline.
+   21 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/Singgle_cycle/src/ImmGen.sv:26:10: Missing newline at end of file (POSIX 3.206).
+                                                                        : ... Suggest add newline.
+   26 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/Singgle_cycle/src/Instruction_Mem.sv:13:10: Missing newline at end of file (POSIX 3.206).
+                                                                                 : ... Suggest add newline.
+   13 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/Singgle_cycle/src/Mux2to1.sv:11:10: Missing newline at end of file (POSIX 3.206).
+                                                                         : ... Suggest add newline.
+   11 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/Singgle_cycle/src/PCplus4.sv:6:10: Missing newline at end of file (POSIX 3.206).
+                                                                        : ... Suggest add newline.
+    6 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/Singgle_cycle/src/Program_Counter.sv:12:10: Missing newline at end of file (POSIX 3.206).
+                                                                                 : ... Suggest add newline.
+   12 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/Singgle_cycle/src/Reg_file.sv:23:10: Missing newline at end of file (POSIX 3.206).
+                                                                          : ... Suggest add newline.
+   23 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/Singgle_cycle/src/tb_top.sv:36:10: Missing newline at end of file (POSIX 3.206).
+                                                                        : ... Suggest add newline.
+   36 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/Singgle_cycle/src/top.sv:112:10: Missing newline at end of file (POSIX 3.206).
+                                                                      : ... Suggest add newline.
+  112 | endmodule
+      |          ^
+%Warning-TIMESCALEMOD: /openlane/designs/Singgle_cycle/src/Adder.sv:2:8: Timescale missing on this module as other modules have it (IEEE 1800-2017 3.14.2.3)
+    2 | module Adder #(
+      |        ^~~~~
+                       /openlane/designs/Singgle_cycle/src/Program_Counter.sv:3:8: ... Location of module with timescale
+    3 | module Program_Counter ( 
+      |        ^~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: /openlane/designs/Singgle_cycle/src/ALU_Control.sv:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2017 3.14.2.3)
+    3 | module ALU_Control (
+      |        ^~~~~~~~~~~
+                       /openlane/designs/Singgle_cycle/src/Program_Counter.sv:3:8: ... Location of module with timescale
+    3 | module Program_Counter ( 
+      |        ^~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: /openlane/designs/Singgle_cycle/src/ALU_unit.sv:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2017 3.14.2.3)
+    3 | module ALU_unit (
+      |        ^~~~~~~~
+                       /openlane/designs/Singgle_cycle/src/Program_Counter.sv:3:8: ... Location of module with timescale
+    3 | module Program_Counter ( 
+      |        ^~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: /openlane/designs/Singgle_cycle/src/Control_Unit.sv:2:8: Timescale missing on this module as other modules have it (IEEE 1800-2017 3.14.2.3)
+    2 | module Control_Unit (
+      |        ^~~~~~~~~~~~
+                       /openlane/designs/Singgle_cycle/src/Program_Counter.sv:3:8: ... Location of module with timescale
+    3 | module Program_Counter ( 
+      |        ^~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: /openlane/designs/Singgle_cycle/src/Data_Memory.sv:1:8: Timescale missing on this module as other modules have it (IEEE 1800-2017 3.14.2.3)
+    1 | module Data_Memory (
+      |        ^~~~~~~~~~~
+                       /openlane/designs/Singgle_cycle/src/Program_Counter.sv:3:8: ... Location of module with timescale
+    3 | module Program_Counter ( 
+      |        ^~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: /openlane/designs/Singgle_cycle/src/ImmGen.sv:1:8: Timescale missing on this module as other modules have it (IEEE 1800-2017 3.14.2.3)
+    1 | module ImmGen (
+      |        ^~~~~~
+                       /openlane/designs/Singgle_cycle/src/Program_Counter.sv:3:8: ... Location of module with timescale
+    3 | module Program_Counter ( 
+      |        ^~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: /openlane/designs/Singgle_cycle/src/Instruction_Mem.sv:2:8: Timescale missing on this module as other modules have it (IEEE 1800-2017 3.14.2.3)
+    2 | module Instruction_Mem ( 
+      |        ^~~~~~~~~~~~~~~
+                       /openlane/designs/Singgle_cycle/src/Program_Counter.sv:3:8: ... Location of module with timescale
+    3 | module Program_Counter ( 
+      |        ^~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: /openlane/designs/Singgle_cycle/src/Mux2to1.sv:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2017 3.14.2.3)
+    3 | module Mux2to1 #(
+      |        ^~~~~~~
+                       /openlane/designs/Singgle_cycle/src/Program_Counter.sv:3:8: ... Location of module with timescale
+    3 | module Program_Counter ( 
+      |        ^~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: /openlane/designs/Singgle_cycle/src/PCplus4.sv:1:8: Timescale missing on this module as other modules have it (IEEE 1800-2017 3.14.2.3)
+    1 | module PCplus4 (
+      |        ^~~~~~~
+                       /openlane/designs/Singgle_cycle/src/Program_Counter.sv:3:8: ... Location of module with timescale
+    3 | module Program_Counter ( 
+      |        ^~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/Singgle_cycle/src/Data_Memory.sv:3:25: Bits of signal are not used: 'address'[31:8,1:0]
+                                                                              : ... In instance top.DM_inst
+    3 |     input  logic [31:0] address, Write_data,
+      |                         ^~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/Singgle_cycle/src/ImmGen.sv:3:25: Bits of signal are not used: 'instruction'[6:0]
+                                                                         : ... In instance top.IG_inst
+    3 |     input  logic [31:0] instruction,
+      |                         ^~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/Singgle_cycle/src/Instruction_Mem.sv:3:25: Bits of signal are not used: 'read_address'[31:8,1:0]
+                                                                                  : ... In instance top.IM_inst
+    3 |     input  logic [31:0] read_address,
+      |                         ^~~~~~~~~~~~

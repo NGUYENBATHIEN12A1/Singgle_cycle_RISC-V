@@ -1,0 +1,3 @@
+Warning: Replacing memory \D_Memory with list of registers. See /openlane/designs/Singgle_cycle/src/Data_Memory.sv:12
+Warning: Replacing memory \Registers with list of registers. See /openlane/designs/Singgle_cycle/src/Reg_file.sv:13
+Warnings: 2 unique messages, 2 total

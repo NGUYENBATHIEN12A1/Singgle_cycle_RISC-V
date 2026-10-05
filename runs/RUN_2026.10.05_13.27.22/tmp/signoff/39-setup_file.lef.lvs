@@ -1,0 +1,1 @@
+lvs {/openlane/designs/Singgle_cycle/runs/RUN_2026.10.05_13.27.22/results/signoff/top.spice top} {/openlane/designs/Singgle_cycle/runs/RUN_2026.10.05_13.27.22/tmp/signoff/36-top.pnl.v top} /home/thiennb/.ciel/sky130A/libs.tech/netgen/sky130A_setup.tcl /openlane/designs/Singgle_cycle/runs/RUN_2026.10.05_13.27.22/logs/signoff/39-top.lef.lvs.log -json

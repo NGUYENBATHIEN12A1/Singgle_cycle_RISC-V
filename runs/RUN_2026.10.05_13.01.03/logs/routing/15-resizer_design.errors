@@ -1,0 +1,2 @@
+[ERROR RSZ-0005] Run global_route before estimating parasitics for global routing.
+Error: resizer_routing_design.tcl, 52 RSZ-0005
