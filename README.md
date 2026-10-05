@@ -41,4 +41,8 @@ Thiết kế đã đạt hội tụ thời gian tuyệt đối (Timing Closure) 
 ### 2. Bản vẽ định tuyến mạch vật lý (Routing Layout trên OpenROAD)
 ![Routing Layout](https://github.com/user-attachments/assets/b6c0b23e-4e3f-42ee-b7e0-663cec4317ae)
 
+### 3. Bản vẽ định tuyến mạch vật lý (Routing Layout trên OpenROAD)
+![Routing Layout](https://github.com/user-attachments/assets/124407be-fb46-4f2c-940f-369f83f2790d)
+
+---
 ---
